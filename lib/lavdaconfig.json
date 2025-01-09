@@ -1,8 +1,7 @@
 {
-    "let": "lanja",
-    "const": "puka",
-    "for": "loop",
-    "console":"bayata",
-    "log" : "dengu"
-  }
-  
+  "let": "lanja",
+  "const": "puka",
+  "for": "loop",
+  "console":"bayata",
+  "log" : "dengu"
+}
