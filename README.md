@@ -21,7 +21,15 @@ yarn add lovda-compiler
 
 1. Create a `lovda` folder in your project
 2. Add `.lovda` files inside the folder
-3. The compiler will generate JavaScript files in `dist/[filename].js`
+3. Build the project by
+ ```bash 
+ lovda build
+  ```
+4. The compiler will generate JavaScript files in `dist/test.js`
+5. Run the code
+ ```bash
+ node dist/test.js
+ ``` 
 
 Example `.lovda` file:
 
