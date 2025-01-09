@@ -9,7 +9,7 @@ const program = new Command();
 program
   .name('lavada')
   .description('Simple CLI to convert .lovda files into JavaScript files')
-  .version('1.1.2');
+  .version('1.0.2');
 
   program
   .command('build').alias("-b")

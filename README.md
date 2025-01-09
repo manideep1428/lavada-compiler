@@ -1,20 +1,17 @@
-# Project Name
+# Lovda Compiler
 
-This `CLI` package allow to convert the `.lovada` file to javascript
+A CLI package that converts `.lovda` files to JavaScript.
+If you come from telugu community you not need to much explanation about this project else
 
-If you come from telugu community you not need to much explanation about this project else 
-
-Google it 
+Google it about the words
 
 ## Installation
-
-Install the package using npm:
 
 ```bash
 npm install lovda-compiler
 ```
 
-Or with Yarn:
+or using Yarn:
 
 ```bash
 yarn add lovda-compiler
@@ -22,34 +19,53 @@ yarn add lovda-compiler
 
 ## Usage
 
-Create a example `.lovda` files to javascript
+1. Create a `lovda` folder in your project
+2. Add `.lovda` files inside the folder
+3. The compiler will generate JavaScript files in `dist/[filename].js`
 
+Example `.lovda` file:
 
+```
+puka PI = 3.14;        // puka is const
+lanja radius = 10;     // lanja is let
+loop (lanja i = 0; i < 5; i++) {
+    bayata.dengu("Iteration:", i);
+}
+bayata.dengu("Area:", PI * radius * radius);
+```
 
+Generated JavaScript output:
 
+```javascript
+const PI = 3.14;
+let radius = 10;
+for (let i = 0; i < 5; i++) {
+  console.log("Iteration:", i);
+}
+console.log("Area:", PI * radius * radius);
+```
 
+## Key Mappings
 
-
+- `puka` → `const`
+- `lanja` → `let`
+- `loop` → `for`
+- `bayata.dengu()` → `console.log()`
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-feature-branch`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-feature-branch`
-5. Submit a pull request.
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push to branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+MIT License - see [LICENSE](LICENSE)
 
 ## Contact
 
-For any inquiries, please reach out to:
-- **GitHub:** [your-username](https://github.com/your-username)
+GitHub: [manideep1428](https://github.com/manideep1428)
 
----
-
-_This README was generated using an AI assistant. Feel free to modify it as needed._
+_Note: This project uses Telugu slang expressions._

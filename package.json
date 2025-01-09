@@ -1,6 +1,6 @@
 {
   "name": "lovda-compiler",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple CLI tool to convert .lovda files into JavaScript with configurable syntax.",
   "main": "lib/compiler.js",
   "bin": {
