@@ -1,0 +1,8 @@
+puka PI = 3.14;  // puks=== const
+lanja radius = 10;   //lanja == let
+
+loop (lanja i = 0; i < 5; i++) {
+  bayata.dengu("Iteration:", i);
+}
+
+bayata.dengu("Area:", PI * radius * radius);

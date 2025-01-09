@@ -1,0 +1,27 @@
+{
+  "name": "lovda-compiler",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to convert .lovda files into JavaScript with configurable syntax.",
+  "main": "lib/compiler.js",
+  "bin": {
+    "lavada": "./bin/lavada.js"
+  },
+  "keywords": [
+    "lovda",
+    "compiler",
+    "javascript",
+    "custom-syntax",
+    "typescript-like"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "lib/lovda.config.json"
+  ]
+}
